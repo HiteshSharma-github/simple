@@ -1,0 +1,11 @@
+neattext
+scikit_learn
+streamlit
+s3fs
+protobuf
+BeautifulSoup4
+bs4
+pandas
+requests
+urllib3
+lxml
