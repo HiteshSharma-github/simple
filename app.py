@@ -76,6 +76,10 @@ def main():
 
 	df = load_data("data/udemy_course_data.csv")
 
+	url = "https://net-spire.netlify.app/"
+	st.write("🔙 [Go Back](%s)" % url)
+
+	
 	if choice == "Home":
 		st.subheader(
             "NETSPIRE RS aims to provide a one-stop solution to one of the most prominent problems among college/school students, i.e. Which online certification course would be best suited for them? Often it is confusing for students to figure out which course to take up when there are about tens of them teaching the same topic. NETSPIRE RS would provide them with a single platform that helps them to compare different courses on the same topic based on specific filters. No more would it be a hassle for students to get the right kind of guidance in choosing a course once they get their hands on NETSPIRE RS.")
