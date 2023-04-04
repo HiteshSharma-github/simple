@@ -76,7 +76,7 @@ def main():
 
 	df = load_data("data/udemy_course_data.csv")
 
-	url = "https://net-spire.netlify.app/"
+	url = "https://netspires.netlify.app/"
 	st.write("🔙 [Go Back](%s)" % url)
 
 	
